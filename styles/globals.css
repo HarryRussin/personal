@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Amatic+SC:wght@400;700&family=Bowlby+One+SC&family=Lilita+One&family=Reggae+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .sickHover{
+    @apply relative
+     before:absolute before:block before:w-[100%] before:h-[2px] before:bottom-0 
+     before:left-0 before:transition-all before:duration-300 ease-in-out before:scale-x-0 hover:before:scale-x-100
+     before:bg-cyan-300
+  }
+  .nav{
+    @apply dark:text-slate-200 transition-all 
+  }
+  .responsive-x{
+    @apply xl:mx-40 md:mx-20 sm:mx-10 mx-5 max-w-3xl sm:max-w-5xl lg:max-w-7xl
+  }
+  .button{
+    @apply px-7 py-2 border-[#304c75] font-semibold text-white active:translate-y-[2px] active:border-2 ring-0 rounded-md border-b-4 border-l-4 from-cyan-300 to-blue-600 bg-gradient-to-tr transition-all
+  }
+}
