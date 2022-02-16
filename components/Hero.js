@@ -6,7 +6,7 @@ function Hero() {
 
                 {/* big letter HARRY */}
 
-                <h1 className="text-[5rem] font-bowlby m-0">Hi, I'm<br></br> <span className=' from-cyan-300 to-blue-500 bg-gradient-to-tr text-transparent bg-clip-text'>Harry</span> Russin</h1>
+                <h1 className="text-[5rem] font-bowlby m-0">Hi, I&apos;m<br></br> <span className='from-cyan-300 to-blue-500 bg-gradient-to-tr text-transparent bg-clip-text'>Harry</span> Russin</h1>
 
                 {/* small letter student designer developer */}
                 <div className="mt-2 sm:w-[80%] text-gray-800 dark:text-gray-300">
