@@ -1,5 +1,3 @@
-import { ChevronDoubleRightIcon } from '@heroicons/react/outline'
-import { AwesomeButton } from 'react-awesome-button'
 
 function Hero() {
     return (
