@@ -15,7 +15,7 @@ export default function Home() {
 
       <style jsx global>
         {`
-        body{background-color:${DarkMode ? '#1b2536' : '#dbeaff'}}
+        body{background-color:${DarkMode ? '#1b2536' : '#f6f5bd'}}
         `}
       </style>
 

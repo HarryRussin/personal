@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Amatic+SC:wght@400;700&family=Bowlby+One+SC&family=Lilita+One&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +9,7 @@
     @apply relative
      before:absolute before:block before:w-[100%] before:h-[2px] before:bottom-0 
      before:left-0 before:transition-all before:duration-300 ease-in-out before:scale-x-0 hover:before:scale-x-100
-     before:bg-cyan-300
+     before:bg-slate-600
   }
   .nav{
     @apply dark:text-slate-200 transition-all 
