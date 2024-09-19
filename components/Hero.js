@@ -12,7 +12,7 @@ function Hero() {
                 {/* small letter student designer developer */}
                 <div className="mt-2 sm:w-[80%] text-gray-800 dark:text-gray-300">
                     <p>student at <a className="text-inherit sickHover" href="https://bath.ac.uk">the 
-                    university of bath </a>studying theoretical physics. <br/><br/>alumni of <a className="text-inherit sickHover">queen ethelburga's</a> as an academic scholar.</p>
+                    university of bath </a>studying theoretical physics. <br/><br/>alumni of <a className="text-inherit sickHover">queen ethelburga&apos;s</a> as an academic scholar.</p>
                     <p>a-levels</p>
                     <br/>
                     <li>
