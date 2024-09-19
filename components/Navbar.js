@@ -45,7 +45,7 @@ function Navbar() {
 
             {/* Mobile */}
 
-            <div className="sm:hidden absolute dark:bg-[#1b2536] bg-[#f6f491] flex z-10 min-w-full justify-between">
+            <div className="sm:hidden absolute dark:bg-[#1b2536] bg-[#f6f5bd] flex z-10 min-w-full justify-between">
                 <div className={`transition-all ${open ?'min-h-screen border-r-2':'bg-transparent h-[4.5rem]'} ${DarkMode?' border-slate-400':''}  pt-5 px-5`}>
                     {/* Hamburger transition */}
                     <div className={` nav transition-all flex `}>
